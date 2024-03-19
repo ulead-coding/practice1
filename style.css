@@ -1,7 +1,4 @@
-body{
-    margin: 0;
-    padding:0;
-}
+
 
 .test1 {
     font-size: 50px;
@@ -48,4 +45,23 @@ body{
     font-size: 100px;
     border: 10px double red;
     text-align:center;
+}
+
+@media screen and (max-width:480px) {
+   
+    h1,.test1,.test2,.test6,.test7 {
+        font-size: 33px;
+    }
+    
+        .test8,.test9 {
+        font-size: 16px;
+    }
+    .test10 {
+        font-size: 29px;
+        
+    }
+    body {
+        width: 77%;
+        margin: 0 auto;
+    }
 }
